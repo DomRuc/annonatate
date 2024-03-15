@@ -1,0 +1,38 @@
+---
+canvas: "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Help",
+            "purpose": "commenting",
+            "creator": {
+                "id": "DomRuc",
+                "name": "DomRuc"
+            },
+            "created": "2024-03-15T08:58:11.100Z",
+            "modified": "2024-03-15T08:58:11.872Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://domruc.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8508.9775390625,4515.25,8290.7138671875,2040.79052734375"
+        }
+    },
+    "id": "6c446278-4ff3-4ef7-96e2-ab2f65a27e78.json",
+    "motivation": "commenting"
+}
