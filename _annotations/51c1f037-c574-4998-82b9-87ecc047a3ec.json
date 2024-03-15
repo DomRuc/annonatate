@@ -1,0 +1,37 @@
+---
+canvas: "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Help I'm lost",
+            "purpose": "commenting",
+            "creator": {
+                "id": "DomRuc",
+                "name": "DomRuc"
+            },
+            "created": "2024-03-15T09:20:43.211Z",
+            "modified": "2024-03-15T09:20:54.254Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://domruc.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"15230.83203125\" cy=\"1575.4141845703125\" rx=\"2475.650390625\" ry=\"1097.1634521484375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "51c1f037-c574-4998-82b9-87ecc047a3ec.json",
+    "motivation": "commenting"
+}
