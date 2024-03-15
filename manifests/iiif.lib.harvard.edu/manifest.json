@@ -1,58 +1,61 @@
 ---
-added: '2024-03-15 08:54:20.338707'
-thumbnail: https://ids.lib.harvard.edu/ids/iiif/53965144/full/120,/0/default.jpg
-title: Harvard University, Harvard College Library Harvard-Yenching Library, HYLC_T_2380_9027_v1
-user: DomRuc
-
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://domruc.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/iiif.lib.harvard.edu/manifest.json",
   "@type": "sc:Manifest",
-  "attribution": "Provided by Harvard University",
   "label": "Harvard University, Harvard College Library Harvard-Yenching Library, HYLC_T_2380_9027_v1",
+  "attribution": "Provided by Harvard University",
   "license": "https://nrs.harvard.edu/urn-3:HUL.eother:idscopyright",
   "logo": "https://iiif.lib.harvard.edu/static/manifests/harvard_logo.jpg",
   "sequences": [
     {
       "@id": "https://iiif.lib.harvard.edu/manifests/ids:53965144/sequence/normal.json",
       "@type": "sc:Sequence",
+      "label": "Harvard University, Harvard College Library Harvard-Yenching Library, HYLC_T_2380_9027_v1",
+      "startCanvas": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json",
+      "viewingHint": "individuals",
       "canvases": [
         {
           "@id": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json",
           "@type": "sc:Canvas",
-          "height": 18061,
-          "images": [
-            {
-              "@id": "https://iiif.lib.harvard.edu/manifests/ids:53965144/annotation/anno-53965144.json",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json",
-              "resource": {
-                "@id": "https://ids.lib.harvard.edu/ids/iiif/53965144/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 18061,
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://ids.lib.harvard.edu/ids/iiif/53965144",
-                  "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 18421
-              }
-            }
-          ],
           "label": "Harvard University, Harvard College Library Harvard-Yenching Library, HYLC_T_2380_9027_v1",
           "thumbnail": {
             "@id": "https://ids.lib.harvard.edu/ids/iiif/53965144/full/,150/0/default.jpg",
             "@type": "dctypes:Image"
           },
-          "width": 18421
+          "height": 18061,
+          "width": 18421,
+          "images": [
+            {
+              "@id": "https://iiif.lib.harvard.edu/manifests/ids:53965144/annotation/anno-53965144.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/53965144/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 18061,
+                "width": 18421,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/53965144",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/ids-53965144-canvas-53965144-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         }
-      ],
-      "label": "Harvard University, Harvard College Library Harvard-Yenching Library, HYLC_T_2380_9027_v1",
-      "startCanvas": "https://iiif.lib.harvard.edu/manifests/ids:53965144/canvas/canvas-53965144.json",
-      "viewingHint": "individuals"
+      ]
     }
   ]
 }
